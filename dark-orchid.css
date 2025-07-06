@@ -1,0 +1,45 @@
+:root {
+    --background-base-lowest: rgba(0, 0, 0, 0);
+    --background-base-lower: rgba(0, 0, 0, 0);
+    --background-base-low: rgba(0, 0, 0, 0);
+    --background-surface-high: rgba(0, 0, 0, 0);
+    --app-background-frame: rgba(0, 0, 0, 0);
+    --__header-bar-background: rgba(0, 0, 0, 0);
+    --font-primary: system-ui;
+    --brand-500: #7300ff;
+    --blurple-50: #7300ff;
+    --text-brand: #7300ff;
+    --text-link: #7300ff;
+}
+
+::selection {
+  background: #7300ff;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+.app__160d8,
+.bg__960e4,
+.container__9293f,
+.privateChannels__35e86,
+.scroller__99e7c,
+.guilds_c48ade,
+.sidebarRegionScroller__23e6b,
+.vc-settings-quickActions-card,
+.container__2637a,
+.vc-settings-card,
+.vc-addon-card,
+.channelTextArea_f75fb0,
+.emptyContainer_de8069,
+.header__5cea9 {
+  background-color: transparent !important;
+}
+
+.container__87bf1.checked__87bf1 {
+    background-color: #7300ff !important;
+}
+
+.children__9293f:after,
+.sidebar_c48ade:after {
+    display: none;
+}
