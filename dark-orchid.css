@@ -1,15 +1,28 @@
 :root {
-    --background-base-lowest: rgba(0, 0, 0, 0);
-    --background-base-lower: rgba(0, 0, 0, 0);
-    --background-base-low: rgba(0, 0, 0, 0);
-    --background-surface-high: rgba(0, 0, 0, 0);
-    --app-background-frame: rgba(0, 0, 0, 0);
-    --__header-bar-background: rgba(0, 0, 0, 0);
-    --font-primary: system-ui;
-    --brand-500: #7300ff;
-    --blurple-50: #7300ff;
-    --text-brand: #7300ff;
-    --text-link: #7300ff;
+  --neutral-73: rgba(0, 0, 0, 0.9);
+  --neutral-87: rgba(0, 0, 0, 0.9);
+  --neutral-95: rgba(0, 0, 0, 0.9);
+  --neutral-98: rgba(0, 0, 0, 0.9);
+  --neutral-100: rgba(0, 0, 0, 0.9);
+  --background-base-lowest: rgba(0, 0, 0, 0);
+  --background-base-lower: rgba(0, 0, 0, 0);
+  --background-base-low: rgba(0, 0, 0, 0);
+  --background-surface-high: rgba(0, 0, 0, 0);
+  --app-background-frame: rgba(0, 0, 0, 0);
+  --__header-bar-background: rgba(0, 0, 0, 0);
+  --button-filled-brand-background-hover: #7300ff;
+  --info-warning-foreground: #ca8a04;
+  --font-primary: system-ui;
+  --brand-500: #7300ff;
+  --brand-360: #7300ff;
+  --blurple-50: #7300ff;
+  --text-brand: #7300ff;
+  --text-link: #7300ff;
+  --red-new-50: #dc2626;
+  --red-345: #dc2626;
+  --red-400: #dc2626;
+  --status-positive: #16a34a;
+  --green-new-40: #16a34a;
 }
 
 ::selection {
@@ -32,15 +45,19 @@
 .channelTextArea_f75fb0,
 .emptyContainer_de8069,
 .header__5cea9,
-.callContainer_cb9592 {
-  background-color: transparent !important;
+.callContainer_cb9592,
+.formNotice_f43ba5,
+.root_bfe55a,
+.cardPrimary__73069,
+.card__73069 {
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .container__87bf1.checked__87bf1 {
-    background-color: #7300ff !important;
+  background-color: #7300ff !important;
 }
 
 .children__9293f:after,
 .sidebar_c48ade:after {
-    display: none;
+  display: none;
 }
