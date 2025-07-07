@@ -16,6 +16,15 @@
 - Fully Transparent
 - It's purple
 
+## Usage
+### Vencord
+> [!TIP]
+> This Method is recommended. It is easy to install and update.<br/>Plus this Theme will be updated to the latest version everytime there.
+1. Copy the URL of [this File](https://raw.githubusercontent.com/dark-orchid/discord/refs/heads/main/dark-orchid.css)
+2. Open Discord and go to Vencord Theme Settings
+3. Switch to Tab "Online Themes"
+4. Paste the URL
+
 ## Non-Goals
 
 **BetterDiscord**
