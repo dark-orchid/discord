@@ -1,63 +1,66 @@
 :root {
-  --neutral-73: rgba(0, 0, 0, 0.9);
-  --neutral-87: rgba(0, 0, 0, 0.9);
-  --neutral-95: rgba(0, 0, 0, 0.9);
-  --neutral-98: rgba(0, 0, 0, 0.9);
-  --neutral-100: rgba(0, 0, 0, 0.9);
-  --background-base-lowest: rgba(0, 0, 0, 0);
-  --background-base-lower: rgba(0, 0, 0, 0);
-  --background-base-low: rgba(0, 0, 0, 0);
-  --background-surface-high: rgba(0, 0, 0, 0);
-  --app-background-frame: rgba(0, 0, 0, 0);
-  --__header-bar-background: rgba(0, 0, 0, 0);
-  --button-filled-brand-background-hover: #7300ff;
-  --info-warning-foreground: #ca8a04;
-  --font-primary: system-ui;
-  --brand-500: #7300ff;
-  --brand-360: #7300ff;
-  --blurple-50: #7300ff;
-  --text-brand: #7300ff;
-  --text-link: #7300ff;
-  --red-new-50: #dc2626;
-  --red-345: #dc2626;
-  --red-400: #dc2626;
-  --status-positive: #16a34a;
-  --green-new-40: #16a34a;
+  --dark-orchid-transparent: rgba(0, 0, 0, 0);
+  --dark-orchid-purple-500: #7300ff;
+  --dark-orchid-yellow-600: #ca8a04;
+  --dark-orchid-red-600: #dc2626;
+  --dark-orchid-green-600: #16a34a;
+  --dark-orchid-white: #ffffff;
+  --dark-orchid-font: system-ui;
+
+  --neutral-73: var(--dark-orchid-transparent);
+  --neutral-83: var(--dark-orchid-transparent);
+  --neutral-87: var(--dark-orchid-transparent);
+  --neutral-91: var(--dark-orchid-transparent);
+  --neutral-95: var(--dark-orchid-transparent);
+  --neutral-97: var(--dark-orchid-transparent);
+  --neutral-98: var(--dark-orchid-transparent);
+  --neutral-100: var(--dark-orchid-transparent);
+  --black: var(--dark-orchid-transparent);
+  --background-mod-subtle: var(--dark-orchid-transparent);
+  --background-base-lowest: var(--dark-orchid-transparent);
+  --background-code: var(--dark-orchid-transparent);
+  --background-base-lower: var(--dark-orchid-transparent);
+  --background-base-low: var(--dark-orchid-transparent);
+  --background-surface-high: var(--dark-orchid-transparent);
+  --app-background-frame: var(--dark-orchid-transparent);
+  --__header-bar-background: var(--dark-orchid-transparent);
+  --button-filled-brand-background-hover: var(--dark-orchid-purple-500);
+  --info-warning-foreground: ;
+  --font-primary: var(--dark-orchid-font);
+  --brand-500: var(--dark-orchid-purple-500);
+  --brand-360: var(--dark-orchid-purple-500);
+  --blurple-50: var(--dark-orchid-purple-500);
+  --text-brand: var(--dark-orchid-purple-500);
+  --text-link: var(--dark-orchid-purple-500);
+  --red-new-50: var(--dark-orchid-red-600);
+  --red-345: var(--dark-orchid-red-600);
+  --red-400: var(--dark-orchid-red-600);
+  --status-positive: var(--dark-orchid-green-600);
+  --green-new-40: var(--dark-orchid-green-600);
 }
 
 ::selection {
-  background: #7300ff;
-  color: #ffffff;
+  background: var(--dark-orchid-purple-500);
+  color: var(--dark-orchid-white);
   text-shadow: none;
 }
 
-.app__160d8,
-.bg__960e4,
-.container__9293f,
-.privateChannels__35e86,
-.scroller__99e7c,
-.guilds_c48ade,
-.sidebarRegionScroller__23e6b,
-.vc-settings-quickActions-card,
-.container__2637a,
-.vc-settings-card,
-.vc-addon-card,
-.channelTextArea_f75fb0,
-.emptyContainer_de8069,
-.header__5cea9,
-.callContainer_cb9592,
-.formNotice_f43ba5,
-.root_bfe55a,
-.cardPrimary__73069,
-.card__73069 {
-  background-color: rgba(0, 0, 0, 0) !important;
-}
-
 .container__87bf1.checked__87bf1 {
-  background-color: #7300ff !important;
+  background-color: var(--dark-orchid-purple-500) !important;
 }
 
 .children__9293f:after,
 .sidebar_c48ade:after {
   display: none;
+}
+
+.layer_da8173,
+.collectibleInfoContainer_c50f62,
+.user-profile-modal,
+.container_ac6cb0 {
+  backdrop-filter: blur(8px);
+}
+
+.container__9293f {
+  background-color: var(--dark-orchid-transparent);
 }
